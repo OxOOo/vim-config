@@ -18,9 +18,11 @@ call plug#end()
 set ruler
 set cursorline
 set encoding=utf-8
-set fileencoding=utf-8i
+set fileencoding=utf-8
 set tabstop=4
 set nu
+set autoindent
+set cindent
 
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '▸'
