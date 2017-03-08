@@ -19,7 +19,8 @@ set ruler
 set cursorline
 set encoding=utf-8
 set fileencoding=utf-8
-set tabstop=4
+"Indent&no tab, just 4 spaces
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 set nu
 set autoindent
 set cindent
